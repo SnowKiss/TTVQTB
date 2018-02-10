@@ -2,6 +2,7 @@
 #define SCENEVIEWER_H
 
 #include <QMainWindow>
+#include <QHBoxLayout>
 
 namespace Ui {
 class SceneViewer;
@@ -12,8 +13,9 @@ class SceneViewer : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit SceneViewer(QWidget *parent = 0);
+    SceneViewer(QWidget *parent = 0);
     ~SceneViewer();
+    void clearScene();
 
 private:
     Ui::SceneViewer *ui;

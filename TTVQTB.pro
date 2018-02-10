@@ -36,7 +36,8 @@ SOURCES += \
     inputmanager.cpp \
     profilsouris.cpp \
     dessinateur.cpp \
-    profilclassic.cpp
+    profilclassic.cpp \
+    scenetype.cpp
 
 HEADERS += \
         sceneviewer.h \
@@ -50,7 +51,8 @@ HEADERS += \
     inputmanager.h \
     profilsouris.h \
     dessinateur.h \
-    profilclassic.h
+    profilclassic.h \
+    scenetype.h
 
 FORMS += \
         sceneviewer.ui

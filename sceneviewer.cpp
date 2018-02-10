@@ -12,3 +12,10 @@ SceneViewer::~SceneViewer()
 {
     delete ui;
 }
+
+void SceneViewer::clearScene()
+{
+    // récupère la liste des widgets qui appartiennent à la fenetre courante et les supprime
+    qDeleteAll(this->layout()->children());
+    //delete this->layout();
+}
